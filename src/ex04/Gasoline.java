@@ -9,9 +9,9 @@ public class Gasoline {
 
     }
 
-    public static double calcEfficiency(double fuel, double gasoline) {
+    public static double calcEfficiency(double fuel, double distance) {
 
-        double calcEfficiency = (double) gasoline / (double) gasoline;
+        double calcEfficiency = distance / fuel;
         // 연비 구하는 식
 
         return 0;// 스택이니까 값 안사라지게 하려고return 사용

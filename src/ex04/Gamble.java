@@ -10,7 +10,7 @@ public class Gamble {
 
     public static int dice() {
         // 랜덤 이용해서 1-6까지 출력
-        int n1 = (int) (Math.random() * 5) + 1;
+        int n1 = (int) (Math.random() * 6) + 1;
         System.out.println(n1);
 
         return n1;
@@ -20,7 +20,7 @@ public class Gamble {
         // 입력받은 달러를 환전하여 반환
         // double dollar =double won*1200 환전 구하는 식
 
-        return exchange(dollar);
+        return dollar * 1200;
     }
 
 }
