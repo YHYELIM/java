@@ -6,7 +6,8 @@ public class ExamTest {// 공식 눈으로만 보지말고 여기다가 실행�
 
     // static int dice() {
     // return (int) ((Math.random() * 2) + 1);
-    // }
+    // 매스 랜덤 double타입으로 나옴 그래서 int로 명시적 타입변환
+    // 몇 번 해보기
 
     // public static void main(String[] args) {
     // // double result = 182.736 / 8.86;

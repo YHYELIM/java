@@ -1,13 +1,13 @@
 package ex00;
 
-public class Elise {
+public class EliseTest {
 
     // int num =10; 힙변수ㅁ
 
     static String name = "엘리스";
     int height = 160;
 
-    public Elise() {
+    public EliseTest() {
     }
 
     void eat(int qty) {
@@ -19,7 +19,7 @@ public class Elise {
 
 public class MemApp {
     public static void main(String[] args) {
-        Elise e = new Elise();// 우변만 실행한다하면 힙에 엘리스타입이 생성되고 height, eat들어감//좌변까지하면 e가 힙의 엘리스를 가리킴
+        EliseTest e = new EliseTest();// 우변만 실행한다하면 힙에 엘리스타입이 생성되고 height, eat들어감//좌변까지하면 e가 힙의 엘리스를 가리킴
         // e에 힙의 주소가 저장됨
         // 일정하지 않은 데이터=힙 데이터
         // 힙 데이터의 용량이 얼마인지 모르니까 메인 스택에주소만 저장(포인터) 값이 있는곳을 가리킴

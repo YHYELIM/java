@@ -19,6 +19,7 @@ public class App {
 
     }
 
+    // hp=hp-attack
     static void attack(Zealot u1, Zealot u2) { // 그래서 여기에 표시해줘야함(3)
         u1.hp = u1.hp - u1.attack; // 어택 스택은 d1을 모름(1)
         System.out.println(u2.name + "이 공격당했습니다");
@@ -99,13 +100,13 @@ public class App {
         // 다크->질럿
         attack(dt2, z2);
 
-        // 오버로딩 체험하기
-        System.out.println();
-        System.out.println(1);
-        System.out.println(1.1);
-        System.out.println('가');
-        System.out.println("문자열");
-        System.out.println(true);
+        // // 오버로딩 체험하기
+        // System.out.println();
+        // System.out.println(1);
+        // System.out.println(1.1);
+        // System.out.println('가');
+        // System.out.println("문자열");
+        // System.out.println(true);
 
     }
 }

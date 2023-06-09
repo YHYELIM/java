@@ -14,3 +14,5 @@ public class Zealot {
 
 }
 // 질럿이 드라군을 공격한다했을떄 질럿의 어택과 드라군의 hp가 필요
+
+// Zealot attack Dragoon hp 필요

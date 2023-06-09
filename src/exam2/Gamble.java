@@ -10,7 +10,7 @@ public class Gamble {
     public static int dice() {
         /* Math.random() 메소드를 활용하여 1~6 사이의 정수를 반환하도록 하시오 */
 
-        return (int) ((Math.random() * 2) + 1);
+        return (int) ((Math.random() * 2) + 1);// double 타입으로 반환되니까 int로 명시적 타입변환 해줘야함
     }
 
     public static double exchange(double dollar) {
