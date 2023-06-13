@@ -12,5 +12,6 @@ abstract public class ProtossUnit {// 추상 클래스
         this.hp = hp;
         this.attack = attack;
     }// 추상클래스는 일반 메소드 가질수있다
+     // 여기서 this는 나 자신
 
 }
